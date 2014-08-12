@@ -46,21 +46,30 @@ color:#fff;
 font-family:'MontserratBold';
 }
 .header{
-padding-top:20px;
+padding-top:0px;
+background:#fff;
+position:relative;
+}
+.header_clear{
+clear:both;
+height:0px;
+width:0px;
 }
 .header_logo{
 padding:16px 29px;
 padding-left:49px;
 font-size:32px;
 float:left;
-width:58%;
+width:50%;
 font-family:'MontserratBold';
+color:#333;
 }
 .header_nav{
 font-size:17px;
 padding:16px 19px;
 float:left;
-width:32%;
+width:40%;
+color:#333;
 }
 .header_nav ul li{
 float:left;
@@ -69,12 +78,27 @@ font-size:22px;
 cursor:pointer;
 list-style-type:none;
 }
+.signin_button{
+position:absolute;
+top:8px;
+right:44px;
+background:#1abc9c;
+color:#fff;
+border:none;
+margin:12px 16px;
+font-family:'LatoLight';
+font-size:16px;
+height:38px;
+width:90px;
+line-height:38px;
+cursor:pointer;
+}
 .middle_head{
 width:100%;
 text-align:center;
 margin:98px 0px;
 font-size:31px;
-margin-top:158px;
+margin-top:108px;
 opacity:0;
 
 -webkit-transition:all .4s ease;
