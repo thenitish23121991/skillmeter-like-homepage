@@ -1,0 +1,361 @@
+*{
+margin:0px;
+padding:0px;
+}
+@font-face{
+src:url('Montserrat-Regular.ttf');
+font-family:'MontserratRegular';
+}
+@font-face{
+src:url('Montserrat-Bold.ttf');
+font-family:'MontserratBold';
+}
+@font-face{
+src:url('BrandonGrotesqueLight.ttf');
+font-family:'BGLight';
+}
+@font-face{
+src:url('Lato-Bol.ttf');
+font-family:'LatoBold';
+}
+@font-face{
+src:url('Lato-lig.ttf');
+font-family:'LatoLight';
+}
+@font-face{
+src:url('Montserrat-Bold.ttf');
+font-family:'MontserratBold';
+}
+html,body{
+height:100%;
+width:100%;
+}
+.container{
+height:100%;
+width:100%;
+}
+.slide{
+height:100%;
+width:100%;
+position:relative;
+overflow:visible;
+}
+.slide1{
+background:#356477;
+color:#fff;
+font-family:'MontserratBold';
+}
+.header{
+padding-top:20px;
+}
+.header_logo{
+padding:16px 29px;
+padding-left:49px;
+font-size:32px;
+float:left;
+width:58%;
+font-family:'MontserratBold';
+}
+.header_nav{
+font-size:17px;
+padding:16px 19px;
+float:left;
+width:32%;
+}
+.header_nav ul li{
+float:left;
+padding:11px 13px;
+font-size:22px;
+cursor:pointer;
+list-style-type:none;
+}
+.middle_head{
+width:100%;
+text-align:center;
+margin:98px 0px;
+font-size:31px;
+margin-top:158px;
+opacity:0;
+
+-webkit-transition:all .4s ease;
+-moz-transition:all .4s ease;
+-o-transition:all .4s ease;
+-ms-transition:all .4s ease;
+
+-webkit-transform:translateY(30px);
+-moz-transform:translateY(30px);
+-ms-transform:translateY(30px);
+-o-transform:translateY(30px);
+}
+.middle_lower{
+width:100%;
+text-align:center;
+font-size:18px;
+min-height:122px;
+}
+.middle_lower_left{
+float:left;
+width:42%;
+padding-left:42px;
+font-size:20px;
+min-height:122px;
+opacity:0;
+
+-webkit-transform:translateX(-30px);
+-moz-transform:translateX(-30px);
+-ms-transform:translateX(-30px);
+-o-transform:translateX(-30px);
+
+-webkit-transition:all .4s ease;
+-moz-transition:all .4s ease;
+-o-transition:all .4s ease;
+-ms-transition:all .4s ease;
+
+}
+.middle_lower_right{
+float:left;
+width:45%;
+min-height:122px;
+padding-right:42px;
+opacity:0;
+
+
+-webkit-transform:translateX(30px);
+-moz-transform:translateX(30px);
+-ms-transform:translateX(30px);
+-o-transform:translateX(30px);
+
+-webkit-transition:all .4s ease;
+-moz-transition:all .4s ease;
+-o-transition:all .4s ease;
+-ms-transition:all .4s ease;
+
+}
+.middle_lower_right img{
+margin-left:42px;
+height:92px;
+width:92px;
+
+-webkit-transition:all .2s ease;
+-moz-transition:all .2s ease;
+-ms-transition:all .2s ease;
+-o-transition:all .2s ease;
+}
+.middle_lower_right img:hover{
+height:112px;
+width:112px;
+}
+.middle_button_container{
+clear:both;
+padding-top:83px;
+width:100%;
+text-align:center;
+}
+.middle_button{
+background:rgb(0,153,204);
+color:#fff;
+font-family:'BGLight';
+border:none;
+font-size:17px;
+border-bottom:3px solid rgba(0,0,0,.23);
+height:52px;
+width:260px;
+line-height:52px;
+cursor:pointer;
+
+}
+.slide2_benefits{
+width:100%;
+text-align:center;
+}
+.benefits_head{
+width:100%;
+text-align:center;
+color:rgb(0,153,204);
+font-size:32px;
+margin-top:30px;
+font-family:'MontserratBold';
+margin-bottom:23px;
+}
+.benefits_text{
+width:76%;
+margin-left:12%;
+font-family:'LatoLight';
+font-size:17px;
+
+}
+.slide2_options{
+min-height:300px;
+width:100%;
+margin-top:13px;
+padding:26px 0px;
+padding-top:8px;
+}
+.slide2_option{
+float:left;
+width:48%;
+margin-top:32px;
+}
+.slide2_options_container{
+opacity:0;
+
+-webkit-transition:all .4s ease;
+-moz-transition:all .4s ease;
+-ms-transition:all .4s ease;
+-o-transition:all .4s ease;
+
+-webkit-transform:translateY(20px);
+-moz-transform:translateY(20px);
+-ms-transform:translateY(20px);
+-o-transform:translateY(20px);
+}
+.slide2_options_container1{
+-webkit-transition-delay:.5s;
+-moz-transition-delay:.5s;
+-ms-transition-delay:.5s;
+-o-transition-delay:.5s;
+}
+.slide2_options_container2{
+-webkit-transition-delay:1s;
+-moz-transition-delay:1s;
+-ms-transition-delay:1s;
+-o-transition-delay:1s;
+}
+.slide2_options_container3{
+-webkit-transition-delay:1.5s;
+-moz-transition-delay:1.5s;
+-ms-transition-delay:1.5s;
+-o-transition-delay:1.5s;
+
+}
+.slide2_option_clear{
+clear:both;
+height:0px;
+width:0px;
+}
+.slide2_option_left{
+float:left;
+width:25%;
+margin-left:4%;
+}
+.slide2_option_right{
+float:left;
+width:60%;
+font-family:'MontserratBold';
+}
+.slide2_option_left img{
+height:92px;
+width:92px;
+margin-left:14px;
+}
+.slide2_option_right_head{
+color:rgb(0,153,204);
+padding-bottom:14px;
+font-size:21px;
+}
+.slide2_option_right_lower{
+font-size:18px;
+color:#333;
+font-family:'LatoBold';
+}
+.slide2_options_container{
+clear:both;
+min-height:90px;
+margin-top:34px;
+}
+.slide3_get_started{
+font-family:'MontserratBold';
+font-size:23px;
+color:#fff;
+padding:29px 0px;
+background:rgba(0,0,0,.08);
+}
+.slide3_get_started_head{
+padding:8px 0px;
+font-size:19px;
+width:100%;
+text-align:center;
+font-size:19px;
+font-family:'LatoBold';
+}
+.slide3_get_started_button_container{
+padding:14px 0px;
+}
+.slide3_get_started_button{
+
+}
+.slide3_get_started_lower{
+width:100%;
+text-align:center;
+margin:14px 0px;
+}
+.slide3_get_started_button{
+background:rgb(224,91,73);
+color:#fff;
+font-family:'BGLight';
+font-size:17px;
+border:none;
+height:42px;
+line-height:42px;
+width:320px;
+border-radius:3px;
+cursor:pointer;
+}
+.slide3_references_container{
+padding:31px 0px;
+width:80%;
+margin-left:10%;
+}
+.footer{
+background:rgba(0,0,0,.83);
+min-height:240px;
+width:100%;
+text-align:center;
+}
+.footer_left{
+float:left;
+width:24%;
+padding:0% 2%;
+padding:32px 0px;
+font-family:'BGLight';
+color:#fff;
+}
+.footer_left_head{
+color:#6fa5c0;
+}
+.footer_left_head_nav{
+padding-top:8px;
+}
+.footer_left_head_nav ul li{
+list-style-type:none;
+padding-top:7px;
+cursor:pointer;
+}
+.footer_left img{
+height:112px;
+width:112px;
+}
+.footer_left_logo{
+padding-top:52px;
+}
+.footer_left_social{
+padding-top:94px;
+}
+.footer_left_social img{
+margin-left:18px;
+height:44px;
+width:44px;
+cursor:pointer;
+
+}
+
+
+.show{
+opacity:1;
+pointer-events:auto;
+
+-webkit-transform:translateX(0px);
+-moz-transform:translateX(0px);
+-ms-transform:translateX(0px);
+-o-transform:translateX(0px);
+}
